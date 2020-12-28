@@ -5,6 +5,24 @@ https://semaphoreci.com/community/tutorials/building-go-web-applications-and-mic
 
 Powered on Gin framework: https://github.com/gin-gonic/gin
 
+## Install and run
+
+```bash
+go build -v -o go-gin-app
+```
+
+```bash
+./go-gin-app
+```
+
+Navigate to http://localhost:8080/ in the browser.
+
+## Tests
+
+```bash
+go test -v
+```
+
 ## HTML/JSON/XML support
 
 ```bash
