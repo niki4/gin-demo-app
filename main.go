@@ -9,6 +9,9 @@ import (
 var router *gin.Engine
 
 func main() {
+	// Set Gin to production mode. Comment the line for local debug.
+	gin.SetMode(gin.ReleaseMode)
+
 	router = gin.Default()
 	router.LoadHTMLGlob("templates/*") // cache templates in memory
 
